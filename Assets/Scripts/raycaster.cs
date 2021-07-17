@@ -32,7 +32,7 @@ public class raycaster : MonoBehaviour
     {
         switch (objname)
         {
-                case "Nosecone_antenna":
+                case "Cube_1":
                 if (clickstate == 1)
                 {
                     //listhandlerHere.checkRaw(clickstate - 1);
@@ -40,7 +40,7 @@ public class raycaster : MonoBehaviour
                     clickstate++;
                 }
                 return;
-                case "Fixed_fins":
+                case "Cube_2":
                 if (clickstate == 2)
                 {
                     //listhandlerHere.checkRaw(clickstate - 1);
@@ -48,7 +48,7 @@ public class raycaster : MonoBehaviour
                     clickstate++;
                 }
                 return;
-                case "Payload":
+                case "Cube_3":
                 if (clickstate == 3)
                 {
                     //listhandlerHere.checkRaw(clickstate - 1);

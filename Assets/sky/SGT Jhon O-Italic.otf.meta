@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 15f454b0b5f4f20478183e3427eba5a1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - SGT Jhon O
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 3ecd57a824f4cfc4d8bc55875cd1b7ec, type: 3}
+  - {fileID: 12800000, guid: 3290fdbb840aa1b4395ab1b64c0d6a6e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
