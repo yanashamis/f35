@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637617991976912059
-    m_Hash: 607476610
+      ticks: 637621302002081967
+    m_Hash: 3206115869
   m_LockFileStatus:
     m_FilePath: D:/f35_new/f35/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637617992205300383
-    m_Hash: 4024238089
+      ticks: 637621302006089218
+    m_Hash: 3747515634
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,6 +22,127 @@ m_LocalPackages:
 m_ProjectPath: D:/f35_new/f35/Packages
 m_EditorVersion: 2021.1.12f1 (afcadd793de6)
 m_ResolvedPackages:
+- packageId: com.unity.cinemachine@2.7.4
+  testable: 0
+  isDirectDependency: 1
+  version: 2.7.4
+  source: 1
+  resolvedPath: D:\f35_new\f35\Library\PackageCache\com.unity.cinemachine@2.7.4
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\nNew starting from
+    2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
+    menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
+    of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
+    this version from the Package Manager."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    - 2.7.1
+    - 2.7.2
+    - 2.7.3
+    - 2.7.4
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    compatible:
+    - 2.7.3
+    - 2.7.4
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    verified: 2.7.4
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637587723470000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: 803199910e6565c7fc162aa6ba9a899af633b2ff
+    path: 
+  unityLifecycle:
+    version: 2.7.3
+    nextVersion: 
 - packageId: com.unity.collab-proxy@1.5.7
   testable: 0
   isDirectDependency: 1
@@ -64,6 +185,8 @@ m_ResolvedPackages:
     - 1.3.9
     - 1.4.9
     - 1.5.7
+    - 1.6.0
+    - 1.7.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -76,6 +199,8 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     compatible:
     - 1.5.7
+    - 1.6.0
+    - 1.7.1
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -243,9 +368,11 @@ m_ResolvedPackages:
     - 2.0.7
     - 2.0.8
     - 2.0.9
+    - 2.0.11
     compatible:
     - 2.0.9
-    verified: 2.0.9
+    - 2.0.11
+    verified: 2.0.11
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
@@ -3461,7 +3588,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: library
+  type: 
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
     synced to version 12.0.2.
 
@@ -3476,9 +3603,19 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
     - 2.0.0
+    - 2.0.1-preview.1
     compatible:
     - 2.0.0
+    - 2.0.1-preview.1
     verified: 2.0.0
   dependencies: []
   resolvedDependencies: []
@@ -3495,7 +3632,7 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637237898320000000
   documentationUrl: 
   hasRepository: 1
   repository:
