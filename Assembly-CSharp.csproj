@@ -80,11 +80,13 @@
     <Compile Include="Assets\MassiveCloudsAtmos\SampleScene\Script\GUI\DeviceInformationText.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Profile\Parameter\AnimationParameter.cs" />
+    <Compile Include="Assets\timeline4\part4.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Profile\MassiveCloudsPhysicsCloudProfile.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\SampleScene\Script\GUI\MassiveCloudsDemoFPSCounter.cs" />
     <Compile Include="Assets\CameraController.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pipeline\HDRP\Script\MassiveCloudsHDRPBlitter.cs" />
     <Compile Include="Assets\NOT_Lonely\OverheadCrane\Scripts\NL_Wheel.cs" />
+    <Compile Include="Assets\timeline2\Part1.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
     <Compile Include="Assets\First person controller\FirstPersonLook.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\AbstractMassiveClouds.cs" />
@@ -111,6 +113,7 @@
     <Compile Include="Assets\NOT_Lonely\OverheadCrane\Scripts\NL_CableHanging.cs" />
     <Compile Include="Assets\NOT_Lonely\OverheadCrane\Scripts\NL_OverheadCrane.cs" />
     <Compile Include="Assets\NOT_Lonely\OverheadCrane\DemoScene\Resources\LookOrbit.cs" />
+    <Compile Include="Assets\sky\skyTimeline1.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Profile\MassiveCloudsStylizedCloudProfile.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pass\Physics\MixedHdriParameter.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
@@ -145,6 +148,7 @@
     <Compile Include="Assets\JMO Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\NOT_Lonely\OverheadCrane\DemoScene\Resources\MoveCrane.cs" />
     <Compile Include="Assets\Scenes\explore.cs" />
+    <Compile Include="Assets\timeline\TimelineControler.cs" />
     <Compile Include="Assets\NOT_Lonely\OverheadCrane\DemoScene\Resources\SimpleFPController\SimpleFPController.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pipeline\MassiveCloudsPipelineDependent.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Library\Light\Moon.cs" />
@@ -158,6 +162,7 @@
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Environment\MassiveCloudsEnvironment.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pass\Physics\AtmosphereParameter.cs" />
     <Compile Include="Assets\Dee-Shaw\Advance water shader\Scripts\FloatingObjects.cs" />
+    <Compile Include="Assets\timeline\start.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\SampleScene\Script\RuntimeControlDemo\AtmosPadVariationSliderControl.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pipeline\MassiveCloudsSunLightSource.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pipeline\HDRP\Script\MassiveCloudsHDRPCustomPass.cs" />
@@ -187,6 +192,7 @@
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pass\Physics\MassiveCloudsPhysicsCloudPass.cs" />
     <Compile Include="Assets\First person controller\Components\Crouch.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Library\MassiveCloudsMaterial.cs" />
+    <Compile Include="Assets\timeline3\Part3.cs" />
     <Compile Include="Assets\Samples\High Definition RP\8.2.0\Procedural Sky\Runtime\ProceduralSky\ProceduralSkyRenderer.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Profile\Parameter\SamplerParameter.cs" />
     <Compile Include="Assets\turnOnCAMERA.cs" />
@@ -195,18 +201,12 @@
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Profile\Parameter\LightingParameter.cs" />
     <Compile Include="Assets\popuphandler.cs" />
     <Compile Include="Assets\Knife\HDRP Outline\Scripts\OutlineIterations.cs" />
+    <Compile Include="Assets\Dee-Shaw\Advance water shader\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\JMO Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Library\Light\Sun.cs" />
-    <Compile Include="Assets\MassiveCloudsAtmos\Script\Pipeline\PPSv2\MassiveCloudsBeforeStackEffectRenderer.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\SampleScene\Script\MassiveCloudsTargetFrameRate.cs" />
+    <Compile Include="Assets\MassiveCloudsAtmos\Script\Pipeline\PPSv2\MassiveCloudsBeforeStackEffectRenderer.cs" />
     <Compile Include="Assets\First person controller\Components\GroundCheck.cs" />
-    <Compile Include="Assets\timeline\TimelineControler.cs" />
-    <Compile Include="Assets\Dee-Shaw\Advance water shader\Scripts\SimpleCameraController.cs" />
-    <Compile Include="Assets\timeline2\Part1.cs" />
-    <Compile Include="Assets\timeline4\part4.cs" />
-    <Compile Include="Assets\timeline3\Part3.cs" />
-    <Compile Include="Assets\timeline\start.cs" />
-    <Compile Include="Assets\sky\skyTimeline1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NOT_Lonely\OverheadCrane\Shaders\NL_AlphaTestTileable.shader" />
@@ -455,11 +455,11 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="clipper_library">
       <HintPath>Library\PackageCache\com.unity.cinemachine@2.7.4\Runtime\ThirdParty\clipper_library.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.12f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -806,9 +806,6 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.1.12f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.ShaderGraph.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualEffectGraph.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll</HintPath>
     </Reference>
@@ -824,12 +821,6 @@
     <Reference Include="Unity.VisualEffectGraph.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.VisualEffectGraph.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
@@ -841,9 +832,6 @@
     </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
@@ -866,14 +854,26 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.HighDefinition.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.HighDefinition.Config.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
