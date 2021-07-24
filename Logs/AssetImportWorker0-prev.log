@@ -15,11 +15,11 @@ D:/f35_new/f35
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52031
+53756
 Successfully changed project path to: D:/f35_new/f35
 D:/f35_new/f35
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 87.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 102.30 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.12f1 (afcadd793de6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56480
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004043 seconds.
+Registered in 0.003948 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 103.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.047 seconds
+- Completed reload, in  3.053 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3047ms)
-		BeginReloadAssembly (82ms)
+	ReloadAssembly (3053ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (594ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (221ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (277ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (278ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (103ms)
+				RefreshPlugins (99ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (126ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005116 seconds.
+Registered in 0.005239 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 110.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.947 seconds
+- Completed reload, in  1.991 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1948ms)
-		BeginReloadAssembly (194ms)
+	ReloadAssembly (1991ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1663ms)
-			LoadAssemblies (120ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1691ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (459ms)
+			SetupTypeCache (466ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (125ms)
-			SetupLoadedEditorAssemblies (834ms)
+			RebuildScriptCaches (130ms)
+			SetupLoadedEditorAssemblies (842ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (408ms)
-				ProcessInitializeOnLoadMethodAttributes (191ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (186ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4015 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 201.6 MB.
-System memory in use after: 201.8 MB.
+System memory in use before: 201.7 MB.
+System memory in use after: 201.9 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4481.
-Total: 3.586500 ms (FindLiveObjects: 0.327100 ms CreateObjectMapping: 0.224500 ms MarkObjects: 2.950800 ms  DeleteObjects: 0.082800 ms)
+Total: 3.448600 ms (FindLiveObjects: 0.320300 ms CreateObjectMapping: 0.242600 ms MarkObjects: 2.803700 ms  DeleteObjects: 0.080800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,55 +135,338 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/HDRPDefaultResources/DefaultHDRISky.exr
-  artifactKey: Guid(54a3a0570aebe8949bec4966f1376581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/HDRPDefaultResources/DefaultHDRISky.exr using Guid(54a3a0570aebe8949bec4966f1376581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d4726e1e0c65354b7246de16e53491') in 0.160407 seconds 
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7fc7fdd06729c77ce46cb61ad01775') in 0.260512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.181265 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdc6ca0c36acc82c151c4fa418629fa') in 0.164736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.288204 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c880e10d38c962aaf0f12074f479c75') in 0.157663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.159600 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9d891f2ab09be31efd41afa14a2143') in 0.157989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.047885 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.154604 seconds  code(4) message(Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:47.7437631Z' while content on disk has modification time of '2021-07-24T07:40:47.9572513Z')
+  ERROR: Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:47.7437631Z' while content on disk has modification time of '2021-07-24T07:40:47.9572513Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.208914 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9a877eea00bad62f37745d41fc4971') in 0.153649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346761 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe91c48e9b7515f9f1fca6376db788c') in 0.158482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048339 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc98a50547dfe1224533344b635fa7e') in 0.181662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064469 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f0a0fd520cf8e0beb90445db32173a') in 0.170088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040456 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed25b69096c6c92f765c6d1759de58d') in 0.172433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.235965 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3d62aca676215d1c895a02afc4be6a') in 0.158448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043355 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bc2789b90f702d2f7819c32389f095c') in 0.162367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.873331 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67829e28e60c17e67f78043782c5923') in 0.150946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058343 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c222692794a80bf5b9a2df550641cbb5') in 0.164283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056658 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db5e2183de17f2626f948ef4bccabb4') in 0.164449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054457 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7facfebf92160b561a3569a7efd0c5cc') in 0.165547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064694 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1481ed6a198bbb2c0f3e197bf41c04') in 0.173234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.669748 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b972c77fd1b317c1f86e9173255518') in 0.154780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074505 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.165248 seconds  code(4) message(Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:52.9735899Z' while content on disk has modification time of '2021-07-24T07:40:53.2011075Z')
+  ERROR: Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:52.9735899Z' while content on disk has modification time of '2021-07-24T07:40:53.2011075Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.056019 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3191e6393cc76e571b4ab71e3cd3705e') in 0.166161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059643 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.164348 seconds  code(4) message(Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:53.4347038Z' while content on disk has modification time of '2021-07-24T07:40:53.6638004Z')
+  ERROR: Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:53.4347038Z' while content on disk has modification time of '2021-07-24T07:40:53.6638004Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.057676 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b08d554c703eb04b32489cc001c6b5') in 0.164266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086102 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.158856 seconds  code(4) message(Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:53.9066617Z' while content on disk has modification time of '2021-07-24T07:40:54.1410667Z')
+  ERROR: Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:53.9066617Z' while content on disk has modification time of '2021-07-24T07:40:54.1410667Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.054513 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bebc306baf7fb0929655b78b7d3ccbe4') in 0.160712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.052526 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d6b08e4cd79c16b558687946a6e850') in 0.163188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.232162 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37435a1405c04a69b8edbdd779951f0b') in 0.161831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063858 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.163959 seconds  code(4) message(Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:54.9962171Z' while content on disk has modification time of '2021-07-24T07:40:55.2183764Z')
+  ERROR: Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:40:54.9962171Z' while content on disk has modification time of '2021-07-24T07:40:55.2183764Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.069787 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52882feddb38dafc0d203eb4d6e81e54') in 0.159341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.187244 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06598a2618d9616356e31223111e7358') in 0.139386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.243485 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f146844acb8f5af47077991899c5c848') in 0.144457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0230beb8ecfdd568a41354a05af58ad') in 0.141981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040174 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b847326b505a61a3c6ec564ca9347d8c') in 0.153539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050288 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833fcb7ca4db8533c3a580c8a430bb3c') in 0.159394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.786809 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96982483c12c4b0941c8ab502c5eceda') in 0.162639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.374937 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9816abac70ffb481415375eb156bb1b') in 0.156888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066283 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fd66c0eaa11f7b897dd220b1b8a4bd') in 0.165278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.283314 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.152503 seconds  code(4) message(Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:41:02.8069144Z' while content on disk has modification time of '2021-07-24T07:41:03.0186195Z')
+  ERROR: Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:41:02.8069144Z' while content on disk has modification time of '2021-07-24T07:41:03.0186195Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.055680 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf50353e8955139012cee30bfa6695c') in 0.158296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.070304 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.160140 seconds  code(4) message(Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:41:03.2510812Z' while content on disk has modification time of '2021-07-24T07:41:03.4725371Z')
+  ERROR: Build asset version error: assets/massivecloudsatmos/prefab/atmospad - natural - high.prefab in SourceAssetDB has modification time of '2021-07-24T07:41:03.2510812Z' while content on disk has modification time of '2021-07-24T07:41:03.4725371Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.053398 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bf3ab33e21ab73fed2e47ed2d721c8') in 0.169131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.053192 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9879f54a10685dbdad5e58eecffe55d3') in 0.164240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061581 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8851770508bccc4486f6a3ae1dfeca81') in 0.161635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069491 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323e8adbaf3bd778533a9f063a1a9b0a') in 0.171600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047024 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7b2a9cf7aa7a1cbc8ac6ecd40bedbc') in 0.162301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030445 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2359bbe457ae24e09f3d4aaa38df5fa9') in 0.162740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.071219 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '587a45d709cd7b87f729eb6321c3970a') in 0.164608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.028203 seconds.
+  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
+  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40af21eaca4594f0f7e7b1b237d4098') in 0.164603 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004079 seconds.
+Registered in 0.004829 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.714 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1715ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1453ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (463ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (386ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.489 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1489ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1250ms)
-			LoadAssemblies (112ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (382ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (111ms)
-			SetupLoadedEditorAssemblies (473ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (348ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (23ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.7 MB.
-System memory in use after: 189.0 MB.
+System memory in use before: 184.0 MB.
+System memory in use after: 184.3 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4530.
-Total: 2.666400 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.176300 ms MarkObjects: 2.216400 ms  DeleteObjects: 0.016200 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4484.
+Total: 3.597500 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.232500 ms MarkObjects: 3.028000 ms  DeleteObjects: 0.019400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -196,393 +479,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1119.976929 seconds.
-  path: Assets/MassiveCloudsAtmos/AtmosProfile.asset
-  artifactKey: Guid(da48d64feaa8dbc49add758ab65b8d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/AtmosProfile.asset using Guid(da48d64feaa8dbc49add758ab65b8d7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2900b96b957bdbad47fa02ef1f94334') in 0.047542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 51.289664 seconds.
-  path: Assets/MassiveCloudsAtmos/MassiveCloudsPhysicsCloudRenderer.asset
-  artifactKey: Guid(51b7fb4e8bbf19e4194dc95e894b0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/MassiveCloudsPhysicsCloudRenderer.asset using Guid(51b7fb4e8bbf19e4194dc95e894b0dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27d99b373548523a3be4b508f613d4f') in 0.008102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 146.450248 seconds.
-  path: Assets/MassiveCloudsAtmos/MassiveCloudsStylizedCloudProfile.asset
-  artifactKey: Guid(9c760dcf4249978409bb3f84dcb944d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/MassiveCloudsStylizedCloudProfile.asset using Guid(9c760dcf4249978409bb3f84dcb944d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b0b50b0b50cd83862b3959f9c2a88a') in 0.003142 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004081 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.432 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1432ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1214ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (385ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (113ms)
-			SetupLoadedEditorAssemblies (439ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3708 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 188.8 MB.
-System memory in use after: 189.0 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4533.
-Total: 2.892800 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.291000 ms MarkObjects: 2.315600 ms  DeleteObjects: 0.015800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 411.805987 seconds.
-  path: Assets/MassiveCloudsAtmos/MassiveCloudsPhysicsCloudRenderer 1.asset
-  artifactKey: Guid(153d05e7252f67a41bf1a40353b9df9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/MassiveCloudsPhysicsCloudRenderer 1.asset using Guid(153d05e7252f67a41bf1a40353b9df9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c96e97c77a198b295159c492245c062') in 0.037330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 208.692543 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab
-  artifactKey: Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab using Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be272338fc086473cdf98dd51f828a76') in 0.223563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab
-  artifactKey: Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab using Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febee5d595e9fced9502492233a9c966') in 0.177631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.388516 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f386f89357eae099edda2a1e381a5cbb') in 0.150871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.367525 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cbc6cb4146da881719e8614ddac84e') in 0.154473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.286102 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40fd5f762d3823eaabf348bfa714cfdf') in 0.221574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.012222 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c481ffafa239e3207cd681c0ddbce090') in 0.203569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000303 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbf942d72f37e4aefca42c8a9cee447') in 0.199728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000944 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e52ddd1416ab046530ce7dc954e4cc') in 0.196235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006869 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3d9fa5703c7206daeeaab03da6859e') in 0.186733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009250 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e14bc1cf3e0bc59f69198191cd6cffa') in 0.183143 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.017275 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59e84cf57bd9621fd143f8c1379c3a8') in 0.183695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019641 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707f92b52a7ce6866c0a2c696dff8a03') in 0.181576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.115653 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab
-  artifactKey: Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab using Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a087bee872d95e1d15bc96542b583516') in 0.178207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.624392 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab
-  artifactKey: Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab using Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dedbab2db3aaf74cb34f7b04f6de6e') in 0.175936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.994793 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab
-  artifactKey: Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab using Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1801712a28fb1165b015daebc8b9a48a') in 0.173061 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.732006 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab
-  artifactKey: Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Dramatic.prefab using Guid(a7f7dbdf6c1e29f4c9cb0ebe6441862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3f28206eee2c5b5b1bcd2adaea65e6') in 0.180094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.653990 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Dramatic - Middle.prefab
-  artifactKey: Guid(56da5f084c8a4c14381ebfbe908bc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Dramatic - Middle.prefab using Guid(56da5f084c8a4c14381ebfbe908bc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6d6d399641f2bdc9e9a2f31a94e7a6') in 0.152828 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.054004 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Dramatic - Middle.prefab
-  artifactKey: Guid(56da5f084c8a4c14381ebfbe908bc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Dramatic - Middle.prefab using Guid(56da5f084c8a4c14381ebfbe908bc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb51745de83d38077bb8ad463fb12ef2') in 0.160023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.075980 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Dramatic - Middle.prefab
-  artifactKey: Guid(56da5f084c8a4c14381ebfbe908bc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Dramatic - Middle.prefab using Guid(56da5f084c8a4c14381ebfbe908bc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.159216 seconds  code(4) message(Build asset version error: assets/massivecloudsatmos/prefab/atmospad - dramatic - middle.prefab in SourceAssetDB has modification time of '2021-07-24T07:31:05.4026992Z' while content on disk has modification time of '2021-07-24T07:31:05.6077528Z')
-  ERROR: Build asset version error: assets/massivecloudsatmos/prefab/atmospad - dramatic - middle.prefab in SourceAssetDB has modification time of '2021-07-24T07:31:05.4026992Z' while content on disk has modification time of '2021-07-24T07:31:05.6077528Z'
-========================================================================
-Received Import Request.
-  Time since last request: 0.151585 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Dramatic - Middle.prefab
-  artifactKey: Guid(56da5f084c8a4c14381ebfbe908bc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Dramatic - Middle.prefab using Guid(56da5f084c8a4c14381ebfbe908bc5a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5de1a03c7ed02e6b97e27632166f1ed') in 0.146572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.895987 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab
-  artifactKey: Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - HDRP - Natural.prefab using Guid(ccf84fa125029994d8f9341e6816bd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8497e2db5ee12441839564ec7f163e34') in 0.179760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.531785 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a296b45c74941d140e5bba20812b18d7') in 0.158304 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.766827 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - Low.prefab
-  artifactKey: Guid(1ebd1d6fb59c2c04585172e4350b87d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - Low.prefab using Guid(1ebd1d6fb59c2c04585172e4350b87d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac351c34ee16866415182c48fe053de2') in 0.154625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.073870 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b1d269d627e19478d797663abc383') in 0.150661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 57.973847 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bd806a8f400e78f802d53c91445f83') in 0.164367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015965 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d7aed3420115a28c214872e3b57dd8') in 0.149013 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.066098 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5f2e95a0b49d8b06fc63c9b51e1910') in 0.144560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.065184 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f347aef3a98ea1ff9aeb1131f5a59092') in 0.147821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.065749 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2892b2bd7f1a1c0618acd6fda788bd5c') in 0.146904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.056099 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83fa4bf53d3a48d93b88f9ec2ef270e') in 0.142200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055805 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a544cd22ec8438075b9d2f32f0991fd') in 0.142242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.057312 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c46d1957baba2a1ef35745ce7380fab') in 0.141697 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.091248 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f30ea178af3451b15cfffcba67a3f82') in 0.141509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058226 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d887b69a80fe0edbc37a4e5c6a8b470') in 0.154056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.272733 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47940aace5cccade0ab281cdadd68ba5') in 0.144929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049762 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd2d05460c4e445e49bef12be4e1d34') in 0.142572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.494360 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec5cf5a9458431baabb9542a5344fc0') in 0.226026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.108547 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f03fffffb341f8a512b500c7837453') in 0.149785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365e9f416cb39fa53ba3701b5e5611d4') in 0.144217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008303 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad91c13e14c569b4cae3abf5fde24b6c') in 0.140547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014492 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fd88f060a0bc89c266ad1c32aeec6c') in 0.147453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028718 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9329d8b4a3d090a1c34b651acc019e69') in 0.146290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.275706 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b17212b80e716dde5dec9b8a676098a') in 0.153017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.088319 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4572828a02eae9479f21bee36c471209') in 0.155031 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c6ecdbb8bf5abd15c08f608c966575') in 0.147026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.834209 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027725df53c9083e8ea2e7d2f447cc84') in 0.157709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 124.530489 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588e46c5f426daf8bdd7e752ed9c2a7f') in 0.162773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.192843 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01713c360b611a461c65ea9b895152c7') in 0.142420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc767f139a00e642a1867048f48daff1') in 0.158511 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027887 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139eb1d8b5e7814ab2051a5bbca7634a') in 0.162946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.654493 seconds.
-  path: Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab
-  artifactKey: Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MassiveCloudsAtmos/Prefab/AtmosPad - Natural - High.prefab using Guid(85436ec9854af184d9f29856321cfdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3395c16cfe8648074c23fb497e6772bf') in 0.155282 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

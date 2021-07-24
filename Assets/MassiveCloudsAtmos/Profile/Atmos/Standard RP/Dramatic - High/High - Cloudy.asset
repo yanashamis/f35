@@ -55,8 +55,8 @@ MonoBehaviour:
     pivot: 0.3
     luminanceFix: 0
   atmosphere:
-    atmosphere: 0.661
-    atmosphereColoring: 0.215
+    atmosphere: 0.618
+    atmosphereColoring: 0.227
     atmosphereColor: {r: 0, g: 0.40784314, b: 2.1960785, a: 0}
     atmosphereHighLightColoring: 1
     atmosphereHighLightColor: {r: 1, g: 0.88077664, b: 0.5424528, a: 0}
@@ -82,3 +82,7 @@ MonoBehaviour:
     Saturation: 0
     AtmosphereThickness: 1
     Gradation: 0
+    Hdri:
+      texture: {fileID: 0}
+      exposure: 0
+      mix: 0

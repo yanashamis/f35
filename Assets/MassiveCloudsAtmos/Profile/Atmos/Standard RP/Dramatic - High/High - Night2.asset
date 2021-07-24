@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Night
   labelColor: {r: 0, g: 0, b: 0, a: 1}
-  position: {x: 0.7708524, y: 0.79521275}
+  position: {x: 0.83700025, y: 0.938}
   mainCloud:
     profile: {fileID: 11400000, guid: 04d0bb67eeb8d1a4986b522533666e07, type: 2}
     densityAdjustment: 0
@@ -82,3 +82,7 @@ MonoBehaviour:
     Saturation: 0
     AtmosphereThickness: 0
     Gradation: 0
+    Hdri:
+      texture: {fileID: 0}
+      exposure: 0
+      mix: 0

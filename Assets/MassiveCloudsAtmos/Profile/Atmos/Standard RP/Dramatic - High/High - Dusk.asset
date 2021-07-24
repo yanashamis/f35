@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Dusk
   labelColor: {r: 1, g: 0.80304027, b: 0.0141509175, a: 1}
-  position: {x: 0.72929376, y: 0.72606385}
+  position: {x: 0.813059, y: 0.71542555}
   mainCloud:
     profile: {fileID: 11400000, guid: 04d0bb67eeb8d1a4986b522533666e07, type: 2}
     densityAdjustment: 0
@@ -82,3 +82,7 @@ MonoBehaviour:
     Saturation: 0
     AtmosphereThickness: 0
     Gradation: 0
+    Hdri:
+      texture: {fileID: 0}
+      exposure: 0
+      mix: 0

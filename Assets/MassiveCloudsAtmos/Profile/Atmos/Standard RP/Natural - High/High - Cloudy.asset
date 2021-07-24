@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Cloudy Day
   labelColor: {r: 0.18791273, g: 0.1775543, b: 0.3584906, a: 1}
-  position: {x: 0.49650824, y: 0.3962766}
+  position: {x: 0.5729083, y: 0.475}
   mainCloud:
     profile: {fileID: 11400000, guid: 04d0bb67eeb8d1a4986b522533666e07, type: 2}
     densityAdjustment: 0.13
@@ -82,3 +82,7 @@ MonoBehaviour:
     Saturation: 0
     AtmosphereThickness: 1
     Gradation: 0
+    Hdri:
+      texture: {fileID: 0}
+      exposure: 0
+      mix: 0

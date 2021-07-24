@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8599883643876097169}
   - component: {fileID: 8599883643876097168}
   m_Layer: 0
-  m_Name: AtmosPad - High
+  m_Name: AtmosPad - Dramatic - High
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: eaeace12cdbd6474bbf6ed99dff1046c, type: 2}
   - {fileID: 11400000, guid: c3aa1d9be793c5647b5c2921da290c3a, type: 2}
   - {fileID: 11400000, guid: 11f97bf0963d44343b3976b28bc35c51, type: 2}
-  pointer: {x: 0.2839663, y: 0.77925533}
+  pointer: {x: 0.36583182, y: 0.25531915}
   sun: {fileID: 0}
   updateEnvironmentOnChange: 1
   enableSunControl: 1
