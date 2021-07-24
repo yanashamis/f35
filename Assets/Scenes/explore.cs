@@ -8,6 +8,6 @@ public class explore : MonoBehaviour
 {
     public void GoToGameplay()
     {
-        SceneManager.LoadScene("scene1");
+        SceneManager.LoadScene("pick");
     }
 }

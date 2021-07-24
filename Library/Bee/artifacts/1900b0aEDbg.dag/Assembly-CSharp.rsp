@@ -460,6 +460,7 @@
 "Assets/Samples/High Definition RP/8.2.0/Procedural Sky/Runtime/ProceduralSky/ProceduralSkyRenderer.cs"
 "Assets/Scenes/attack.cs"
 "Assets/Scenes/exit.cs"
+"Assets/Scenes/exit_movie.cs"
 "Assets/Scenes/explore.cs"
 "Assets/Scenes/hangarScene.cs"
 "Assets/Scenes/sceneScriptMenu.cs"
