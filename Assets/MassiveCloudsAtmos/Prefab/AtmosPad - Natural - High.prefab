@@ -55,24 +55,25 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 695ee908b9ce7a841963304ccd43e5d6, type: 2}
   - {fileID: 11400000, guid: 99e7b3afe45701a4884782525352db15, type: 2}
   - {fileID: 11400000, guid: 7711d17494632fd45bb14a6037d1f437, type: 2}
-  pointer: {x: 0.2803355, y: 0.7606383}
+  pointer: {x: 0.6402321, y: 0.61702126}
   sun: {fileID: 0}
-  updateEnvironmentOnChange: 0
+  updateEnvironmentOnChange: 1
   enableSunControl: 1
   enableSkyControl: 1
-  earthTilt: 23.4
-  earthAxis: 250
+  earthTilt: 52.3
+  earthAxis: 312
   groups:
   - profiles:
-    - {fileID: 11400000, guid: ebd402361998c614ca859b256a39db6e, type: 2}
     - {fileID: 11400000, guid: 0e74ada245647ab4294707d38b61f464, type: 2}
     - {fileID: 11400000, guid: 9e92c49d937b6fb47bc5d45bf3d09d20, type: 2}
+  - profiles:
+    - {fileID: 11400000, guid: ebd402361998c614ca859b256a39db6e, type: 2}
   - profiles:
     - {fileID: 11400000, guid: 5b8f9953ff697484f97bc9f44019fd45, type: 2}
     - {fileID: 11400000, guid: 13d33ea3e5bd7db4293d07e73cc06794, type: 2}
     - {fileID: 11400000, guid: 3c846901e9412dc4483859ee09105dcd, type: 2}
     - {fileID: 11400000, guid: 695ee908b9ce7a841963304ccd43e5d6, type: 2}
-    - {fileID: 11400000, guid: 7711d17494632fd45bb14a6037d1f437, type: 2}
     - {fileID: 11400000, guid: 99e7b3afe45701a4884782525352db15, type: 2}
+    - {fileID: 11400000, guid: 7711d17494632fd45bb14a6037d1f437, type: 2}
   - profiles:
     - {fileID: 11400000, guid: 99c170be791007f429b6d50b71f1e8cc, type: 2}

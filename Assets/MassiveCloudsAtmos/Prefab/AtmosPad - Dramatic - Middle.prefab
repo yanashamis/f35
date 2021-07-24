@@ -55,7 +55,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0fb44c2a3fe1fae4b9af8cb62af666ec, type: 2}
   - {fileID: 11400000, guid: d3396bfdd276f1f48937a2dbdbe84ed6, type: 2}
   - {fileID: 11400000, guid: 45397437a2f6f49409367ddba58466a0, type: 2}
-  pointer: {x: 0.28638685, y: 0.76861703}
+  pointer: {x: 0.4419729, y: 0.23138298}
   sun: {fileID: 0}
   updateEnvironmentOnChange: 1
   enableSunControl: 1
