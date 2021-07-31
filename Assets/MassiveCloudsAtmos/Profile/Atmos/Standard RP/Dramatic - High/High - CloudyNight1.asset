@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName: Cloudy Night
   labelColor: {r: 0, g: 0, b: 0, a: 1}
-  position: {x: 0.1706085, y: 0.39361703}
+  position: {x: 0.10835169, y: 0.39361703}
   mainCloud:
     profile: {fileID: 11400000, guid: 04d0bb67eeb8d1a4986b522533666e07, type: 2}
     densityAdjustment: 0.22
@@ -41,7 +41,7 @@ MonoBehaviour:
       Value: 0
   cloudIntensityAdjustment: 0.05
   intensityOverride: 1
-  intensity: 0.16
+  intensity: 1.19
   lightColor: {r: 0.048549946, g: 0.04579032, b: 0.1981132, a: 0}
   moonIntensity: 1
   moonLightColor: {r: 0.24065503, g: 0.27306485, b: 0.3018868, a: 0}
@@ -56,11 +56,11 @@ MonoBehaviour:
     luminanceFix: 0
   atmosphere:
     atmosphere: 0.543
-    atmosphereColoring: 0.576
+    atmosphereColoring: 0.535
     atmosphereColor: {r: 0, g: 0.006149544, b: 0.0754717, a: 0}
     atmosphereHighLightColoring: 0.567
-    atmosphereHighLightColor: {r: 0, g: 0.10866976, b: 1, a: 0}
-    cloudOcclusion: 0.534
+    atmosphereHighLightColor: {r: 0.22347811, g: 0.43197408, b: 0.5849056, a: 0}
+    cloudOcclusion: 0.577
     cloudAtmospheric: 1
     godRay: 1
     godRayStartDistance: 1000
@@ -77,8 +77,12 @@ MonoBehaviour:
     SkyExposure: 1
     GroundColor: {r: 0, g: 0, b: 0, a: 0}
     GroundScattering: 0
-    SunSize: 0.494
+    SunSize: 0.508
     SunSizeConvergence: 5.81
     Saturation: 0
     AtmosphereThickness: 0.43
     Gradation: 0
+    Hdri:
+      texture: {fileID: 8900000, guid: 7260d7a03a08e8449ab6bf00464bf0e1, type: 3}
+      exposure: 0.33
+      mix: 0.066
