@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 871.8561, g: 384.72815, b: 146.62503, a: 1}
+  m_IndirectSpecularColor: {r: 766.6361, g: 296.05905, b: 75.22286, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -8851,6 +8851,7 @@ GameObject:
   - component: {fileID: 1011500707}
   - component: {fileID: 1011500706}
   - component: {fileID: 1011500705}
+  - component: {fileID: 1011500710}
   m_Layer: 0
   m_Name: Cube (7)
   m_TagString: Untagged
@@ -8947,6 +8948,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1011500710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1011500704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a34dce33c4213c4393266fbcd799d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6e4f26dca34a46d4792b902fc997e631, type: 2}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  mask: {fileID: 0}
+  fresnelScale: 2
+  fresnelPower: 2
+  alphaThreshold: 0.5
 --- !u!1 &1018992510
 GameObject:
   m_ObjectHideFlags: 0
@@ -15053,7 +15072,6 @@ GameObject:
   - component: {fileID: 3605468804974768938}
   - component: {fileID: 7602814292462935251}
   - component: {fileID: 3025033614478920783}
-  - component: {fileID: 3025033614478920782}
   - component: {fileID: 3025033614478920781}
   m_Layer: 0
   m_Name: AIM_120_Wing3_Wing_Wing3
@@ -15075,24 +15093,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myObjectsToLight: {fileID: 3025033614478920780}
---- !u!114 &3025033614478920782
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3025033614478920780}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a34dce33c4213c4393266fbcd799d5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 6e4f26dca34a46d4792b902fc997e631, type: 2}
-  color: {r: 0.032707386, g: 0.92879707, b: 0.990566, a: 1}
-  mask: {fileID: 0}
-  fresnelScale: 2
-  fresnelPower: 2
-  alphaThreshold: 0.5
 --- !u!65 &3025033614478920783
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17842,7 +17842,6 @@ GameObject:
   - component: {fileID: 1135711832669615856}
   - component: {fileID: 4641969556623907866}
   - component: {fileID: 4065596073502795493}
-  - component: {fileID: 4065596073502795492}
   - component: {fileID: 4065596073502795491}
   m_Layer: 0
   m_Name: AIM_120_Wing4_Wing_Wing4
@@ -17864,24 +17863,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myObjectsToLight: {fileID: 4065596073502795490}
---- !u!114 &4065596073502795492
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4065596073502795490}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a34dce33c4213c4393266fbcd799d5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 6e4f26dca34a46d4792b902fc997e631, type: 2}
-  color: {r: 0.032707386, g: 0.92879707, b: 0.990566, a: 1}
-  mask: {fileID: 0}
-  fresnelScale: 2
-  fresnelPower: 2
-  alphaThreshold: 0.5
 --- !u!65 &4065596073502795493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18469,7 +18450,6 @@ GameObject:
   - component: {fileID: 4580117982980398873}
   - component: {fileID: 8450181159865366553}
   - component: {fileID: 4476366158827588402}
-  - component: {fileID: 4476366158827588401}
   - component: {fileID: 4476366158827588400}
   m_Layer: 0
   m_Name: AIM_120_Wing2_Wing_Wing2
@@ -18491,24 +18471,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myObjectsToLight: {fileID: 4476366158827588399}
---- !u!114 &4476366158827588401
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4476366158827588399}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a34dce33c4213c4393266fbcd799d5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 6e4f26dca34a46d4792b902fc997e631, type: 2}
-  color: {r: 0.032707386, g: 0.92879707, b: 0.990566, a: 1}
-  mask: {fileID: 0}
-  fresnelScale: 2
-  fresnelPower: 2
-  alphaThreshold: 0.5
 --- !u!65 &4476366158827588402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19372,7 +19334,6 @@ GameObject:
   - component: {fileID: 8550436553695377159}
   - component: {fileID: 8628745678152892941}
   - component: {fileID: 5262031171732526514}
-  - component: {fileID: 5262031171732526513}
   - component: {fileID: 5262031171732526512}
   m_Layer: 0
   m_Name: AIM_120_Wing1_Wing_Wing1
@@ -19394,24 +19355,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myObjectsToLight: {fileID: 5262031171732526511}
---- !u!114 &5262031171732526513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5262031171732526511}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a34dce33c4213c4393266fbcd799d5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 6e4f26dca34a46d4792b902fc997e631, type: 2}
-  color: {r: 0.032707386, g: 0.92879707, b: 0.990566, a: 1}
-  mask: {fileID: 0}
-  fresnelScale: 2
-  fresnelPower: 2
-  alphaThreshold: 0.5
 --- !u!65 &5262031171732526514
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19478,6 +19421,7 @@ GameObject:
   - component: {fileID: 3960691175683561097}
   - component: {fileID: 716725325406468937}
   - component: {fileID: 5270019023504566717}
+  - component: {fileID: 5292728694658473120}
   m_Layer: 0
   m_Name: AIM_120_Body_Piece2
   m_TagString: Untagged
@@ -19485,6 +19429,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &5292728694658473120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5292728694658473119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a34dce33c4213c4393266fbcd799d5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: 6e4f26dca34a46d4792b902fc997e631, type: 2}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  mask: {fileID: 0}
+  fresnelScale: 2
+  fresnelPower: 2
+  alphaThreshold: 0.5
 --- !u!1 &5304754622324369885
 GameObject:
   m_ObjectHideFlags: 0
@@ -19516,7 +19478,6 @@ GameObject:
   - component: {fileID: 6915636429495537650}
   - component: {fileID: 5305587524489886524}
   - component: {fileID: 5305587524489886522}
-  - component: {fileID: 5305587524489886523}
   m_Layer: 0
   m_Name: Payload
   m_TagString: Untagged
@@ -19537,24 +19498,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myObjectsToLight: {fileID: 5305587524489886521}
---- !u!114 &5305587524489886523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5305587524489886521}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a34dce33c4213c4393266fbcd799d5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 6e4f26dca34a46d4792b902fc997e631, type: 2}
-  color: {r: 0.051397298, g: 0.990566, b: 0.8937493, a: 1}
-  mask: {fileID: 0}
-  fresnelScale: 2
-  fresnelPower: 2
-  alphaThreshold: 0.5
 --- !u!65 &5305587524489886524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21847,7 +21790,6 @@ GameObject:
   - component: {fileID: 828222251011965382}
   - component: {fileID: 4241566171258216490}
   - component: {fileID: 4718691796560653709}
-  - component: {fileID: 7629515450060970353}
   - component: {fileID: 7629515450060970352}
   - component: {fileID: 7629515450060970354}
   m_Layer: 0
@@ -21870,24 +21812,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 17.780014, y: 17.78001, z: 48.25984}
   m_Center: {x: 0.000033738466, y: 0.0000021521878, z: 159.42786}
---- !u!114 &7629515450060970353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7629515450060970351}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a34dce33c4213c4393266fbcd799d5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: 6e4f26dca34a46d4792b902fc997e631, type: 2}
-  color: {r: 1, g: 1, b: 1, a: 1}
-  mask: {fileID: 0}
-  fresnelScale: 2
-  fresnelPower: 2
-  alphaThreshold: 0.5
 --- !u!114 &7629515450060970354
 MonoBehaviour:
   m_ObjectHideFlags: 0

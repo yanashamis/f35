@@ -223,6 +223,7 @@
     <None Include="Assets\MassiveCloudsAtmos\Shader\Includes\PipelineDependent\MassiveCloudsDepthSampler.hlsl" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\Includes\MassiveCloudsPostProcess.hlsl" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsCommon.hlsl" />
+    <None Include="Assets\Knife\HDRP Outline\Resources\Shaders\Knife-HDRPOutline DepthCopy.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Opaque.shader" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsScreenSpaceShadow.shader" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsShadow.hlsl" />
@@ -246,12 +247,16 @@
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsAtmosphereMix.hlsl" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsPhysicsCloud.hlsl" />
     <None Include="Assets\NOT_Lonely\OverheadCrane\Shaders\NL_Opacity.shader" />
+    <None Include="Assets\Knife\HDRP Outline\Shaders\HDRPOutline.hlsl" />
+    <None Include="Assets\Knife\HDRP Outline\Resources\Shaders\Knife-HDRPOutline.shader" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsScreenSpaceShadow.hlsl" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsAtmosphere.hlsl" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsVolumetricShadow.hlsl" />
+    <None Include="Assets\Knife\HDRP Outline\Shaders\Knife-HDRPOutline_Unlit_Animated.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Transparent.shader" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\Includes\MassiveCloudsInput.hlsl" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\Readme.txt" />
+    <None Include="Assets\Knife\HDRP Outline\Resources\Shaders\Knife-MaskApplier.shader" />
     <None Include="Assets\Matireal for missle\StandardDoubleSide.shader" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveClouds.shader" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsShadowRaymarch.hlsl" />
@@ -260,6 +265,7 @@
     <None Include="Assets\Knife\HDRP Outline\Shaders\Knife-HDRPOutline_Unlit.shader" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\MassiveCloudsPhysicsCloud.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Opaque.shader" />
+    <None Include="Assets\Knife\HDRP Outline\Resources\Shaders\Knife-Blur.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Cutout.shader" />
     <None Include="Assets\MassiveCloudsAtmos\Shader\Includes\MassiveCloudsMath.hlsl" />
     <None Include="Assets\NOT_Lonely\OverheadCrane\Shaders\NL_OpaqueTileable.shader" />
