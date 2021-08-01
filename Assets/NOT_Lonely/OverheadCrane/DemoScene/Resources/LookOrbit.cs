@@ -27,9 +27,10 @@ public class LookOrbit : MonoBehaviour {
     public float x= 0.0f;
 	public float y= 0.0f;
 	private Touch touch;
-	private bool CamFreeze = true;
-	private bool ControlsFreeze = false;
-	private bool RotationFreeze = false;
+
+	public bool CamFreeze = false;
+	public bool ControlsFreeze = false;
+	public bool RotationFreeze = false;
     
 	
 	void  Start (){
@@ -83,6 +84,15 @@ public class LookOrbit : MonoBehaviour {
 		
 
 	void  Update (){
+		if (Input.GetKeyDown(KeyCode.Alpha1)){ CamFreeze = true;   }
+		if (Input.GetKeyDown(KeyCode.Alpha2)){ CamFreeze = false;   }
+
+		if (Input.GetKeyDown(KeyCode.Alpha3)){ ControlsFreeze = true;   }
+		if (Input.GetKeyDown(KeyCode.Alpha4)){ ControlsFreeze = false;   }
+
+		if (Input.GetKeyDown(KeyCode.Alpha5)){ RotationFreeze = true;   }
+		if (Input.GetKeyDown(KeyCode.Alpha6)){ RotationFreeze = false;   }
+
 		if (target && !CamFreeze && !RotationFreeze) {			
 
 			//Zooming with mouse

@@ -9,6 +9,14 @@ public class popuphandler : MonoBehaviour
     public GameObject popupcontainer;
     public List<GameObject> texts;
     private int currentN;
+    private void popupInitSetup()
+    {
+        foreach (var text in texts)
+        {
+            text.SetActive(false);
+        }
+        closepopup();
+    }
     public void showPopup(int textn)
     {
         currentN = textn;
@@ -22,12 +30,13 @@ public class popuphandler : MonoBehaviour
     }
     public void closepopup()
     {
-        listhandlerHere.checkRaw(currentN);
+        //listhandlerHere.checkRaw(currentN);
         popupcontainer.SetActive(false);
     }
     void Start()
     {
-        //showPopup(1);
+        popupInitSetup();
+        showPopup(0);
     }
 
     // Update is called once per frame
