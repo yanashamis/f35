@@ -203,15 +203,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NOT_Lonely\OverheadCrane\Shaders\NL_AlphaTestTileable.shader" />
+    <None Include="Assets\Knife\HDRP Outline\Resources\Shaders\Knife-HDRPOutline DepthCopy.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Opaque.shader" />
     <None Include="Assets\NOT_Lonely\OverheadCrane\Shaders\NL_Refraction.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Transparent.shader" />
     <None Include="Assets\NOT_Lonely\OverheadCrane\Shaders\NL_Opacity.shader" />
+    <None Include="Assets\Knife\HDRP Outline\Shaders\HDRPOutline.hlsl" />
+    <None Include="Assets\Knife\HDRP Outline\Resources\Shaders\Knife-HDRPOutline.shader" />
+    <None Include="Assets\Knife\HDRP Outline\Shaders\Knife-HDRPOutline_Unlit_Animated.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Transparent.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\Readme.txt" />
+    <None Include="Assets\Knife\HDRP Outline\Resources\Shaders\Knife-MaskApplier.shader" />
     <None Include="Assets\Matireal for missle\StandardDoubleSide.shader" />
     <None Include="Assets\Knife\HDRP Outline\Shaders\Knife-HDRPOutline_Unlit.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Opaque.shader" />
+    <None Include="Assets\Knife\HDRP Outline\Resources\Shaders\Knife-Blur.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Lite Standard (Specular setup) Cutout.shader" />
     <None Include="Assets\NOT_Lonely\OverheadCrane\Shaders\NL_OpaqueTileable.shader" />
     <None Include="Assets\Ciconia Studio\Shaders\Standard Shaders\BuiltIn\CS_Standard (Specular setup) Cutout.shader" />
