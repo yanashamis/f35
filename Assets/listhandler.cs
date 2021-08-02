@@ -16,12 +16,13 @@ public class listhandler : MonoBehaviour
             case "part_nosecone_place":
                 checkRaw(0);
                 return;
-            case "fins_place":
+            case "Steering fins_place":
                 checkRaw(1);
                 return;
-            case "Steering fins_place":
+            case "fins_place":
                 checkRaw(2);
                 return;
+
         }
     }
     private bool allChecked()
@@ -35,6 +36,20 @@ public class listhandler : MonoBehaviour
         }
         return true;
     }
+
+    public bool previousChecked(int ord)
+    {
+        for(int i = 0; i < ord; i++)
+        {
+            //Debug.Log("checking prev raw " + i + "=" + raw[i].transform.Find("check").gameObject.activeSelf);
+            if (!raw[i].transform.Find("check").gameObject.activeSelf)
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public void checkRaw(int n)
     {
         Debug.Log("checking raw " + n);

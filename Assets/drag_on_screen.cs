@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class drag_on_screen : MonoBehaviour
 {
+    public int order;
     private bool dragging = false;
+    private bool done = false;
     private float distance;
     public GameObject targetplace;
+    public GameObject namebar;
     public bool stickToTarget = false;
     public float movespeed = 20f;
 
@@ -16,6 +19,23 @@ public class drag_on_screen : MonoBehaviour
 
     private listhandler listhandlerHere;
 
+    public List<GameObject> outlineObject;
+    public GameObject outlineTarget;
+
+
+
+    private void OnMouseEnter()
+    {
+        if ((!done) && listhandlerHere.previousChecked(order))
+            foreach(GameObject _out in outlineObject)
+                _out.GetComponent<Knife.HDRPOutline.Core.OutlineObject>().enabled = true;
+    }
+
+    private void OnMouseExit()
+    {
+        foreach (GameObject _out in outlineObject)
+            _out.GetComponent<Knife.HDRPOutline.Core.OutlineObject>().enabled = false;
+    }
 
     private void Start()
     {
@@ -25,21 +45,29 @@ public class drag_on_screen : MonoBehaviour
     }
     void OnMouseDown()
     {
-        //LookOrbitHere.FreezeControls();
-        LookOrbitHere.FreezeRotation();
-        distance = Vector3.Distance(transform.position, Camera.main.transform.position);
-        dragging = true;
+        if ((!done) && (listhandlerHere.previousChecked(order)))
+            {
+                //LookOrbitHere.FreezeControls();
+                LookOrbitHere.FreezeRotation();
+                distance = Vector3.Distance(transform.position, Camera.main.transform.position);
+                dragging = true;
+                outlineTarget.GetComponent<Knife.HDRPOutline.Core.OutlineObject>().enabled = true;
+                namebar.gameObject.SetActive(true);
+            }
     }
 
     void OnMouseUp()
     {
-        //LookOrbitHere.UnfreezeControls();
-        LookOrbitHere.UnfreezeRotation();
-        dragging = false;
-        if (shootTestBeam())
-        {
-            //Debug.Log("hit that");
-            stickToTarget = true;
+        if ((!done) &&(listhandlerHere.previousChecked(order)))
+            {
+                //LookOrbitHere.UnfreezeControls();
+                LookOrbitHere.UnfreezeRotation();
+                dragging = false;
+                if (shootTestBeam())
+                {
+                    //Debug.Log("hit that");
+                    stickToTarget = true;
+            }
         }
     }
     bool shootTestBeam()
@@ -88,6 +116,9 @@ public class drag_on_screen : MonoBehaviour
             {
                 stickToTarget = false;
                 stiched();
+                done = true;
+                namebar.gameObject.SetActive(false);
+                outlineTarget.GetComponent<Knife.HDRPOutline.Core.OutlineObject>().enabled = false;
             }
         }
     }
