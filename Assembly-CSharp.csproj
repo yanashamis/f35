@@ -209,6 +209,7 @@
     <Compile Include="Assets\MassiveCloudsAtmos\SampleScene\Script\MassiveCloudsTargetFrameRate.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pipeline\PPSv2\MassiveCloudsBeforeStackEffectRenderer.cs" />
     <Compile Include="Assets\First person controller\Components\GroundCheck.cs" />
+    <Compile Include="Assets\tooltiphandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\MassiveCloudsAtmos\Shader\Includes\PipelineDependent\PipelineDependent.hlsl" />

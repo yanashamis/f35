@@ -474,6 +474,7 @@
 "Assets/timeline2/Part1.cs"
 "Assets/timeline3/Part3.cs"
 "Assets/timeline4/part4.cs"
+"Assets/tooltiphandler.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:8.0
 
