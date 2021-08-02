@@ -461,6 +461,7 @@
 "Assets/Scenes/sceneScriptMenu.cs"
 "Assets/Scripts/raycaster.cs"
 "Assets/Scripts/SimpleCameraController.cs"
+"Assets/tooltiphandler.cs"
 "Assets/turnOnCAMERA.cs"
 "Assets/TutorialInfo/Scripts/Readme.cs"
 -langversion:8.0

@@ -126,6 +126,7 @@
     <Compile Include="Assets\JMO Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\NOT_Lonely\OverheadCrane\Scripts\NL_ColumnControl.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Library\DynamicRenderTexture.cs" />
+    <Compile Include="Assets\tooltiphandler.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\SampleScene\Script\PaperPlaneDemo\AutoPilot.cs" />
     <Compile Include="Assets\Cool Visual Effects - Part 1\Scripts\ConstantRotation.cs" />
     <Compile Include="Assets\MassiveCloudsAtmos\Script\Pipeline\HDRP\Script\MassiveCloudsVolumeParameter.cs" />

@@ -11,6 +11,8 @@ public class listhandler : MonoBehaviour
     {
         switch (text)
         {
+
+
             case "part_nosecone_place":
                 checkRaw(0);
                 return;
