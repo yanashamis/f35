@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 1294.8057, g: 933.27734, b: 742.5864, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -717,7 +717,7 @@ RectTransform:
   - {fileID: 1430703376}
   - {fileID: 885618255}
   m_Father: {fileID: 1844107539}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2275,8 +2275,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443420520}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 446, y: 116, z: 131}
-  m_LocalScale: {x: 20.207798, y: 17.017097, z: 20.207798}
+  m_LocalPosition: {x: 306.00006, y: 97, z: 131}
+  m_LocalScale: {x: 12.458714, y: 10.491551, z: 12.458714}
   m_Children: []
   m_Father: {fileID: 689678640}
   m_RootOrder: 0
@@ -10017,7 +10017,7 @@ RectTransform:
   m_GameObject: {fileID: 689678639}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4722, y: 0.5607375, z: 0.4722}
+  m_LocalScale: {x: 0.99467736, y: 1.1811793, z: 0.99467736}
   m_Children:
   - {fileID: 443420521}
   m_Father: {fileID: 1844107539}
@@ -10025,7 +10025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 546, y: 310}
+  m_AnchoredPosition: {x: 963, y: 365}
   m_SizeDelta: {x: 838, y: 374}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &689678641
@@ -16150,7 +16150,7 @@ PrefabInstance:
     - target: {fileID: 4508170067155295299, guid: 02d8ee7bd87376c4584d1075c0257bc2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4508170067155295299, guid: 02d8ee7bd87376c4584d1075c0257bc2,
         type: 3}
@@ -16368,8 +16368,8 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 52839053}
-  - {fileID: 1808049432}
   - {fileID: 162147579}
+  - {fileID: 1808049432}
   - {fileID: 1600514525}
   - {fileID: 689678640}
   - {fileID: 687278712}

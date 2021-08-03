@@ -1056,7 +1056,7 @@ RectTransform:
   m_GameObject: {fileID: 776335738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.26362807, y: 0.26362807, z: 0.26362807}
+  m_LocalScale: {x: 0.3325668, y: 0.3325668, z: 0.3325668}
   m_Children:
   - {fileID: 416898313}
   m_Father: {fileID: 729275323}
@@ -1064,7 +1064,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 377.9306, y: -180.74504}
+  m_AnchoredPosition: {x: 589.6, y: -180.74504}
   m_SizeDelta: {x: 668, y: 164}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &776335740
@@ -1396,7 +1396,7 @@ RectTransform:
   m_GameObject: {fileID: 1083907284}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.26362807, y: 0.26362807, z: 0.26362807}
+  m_LocalScale: {x: 0.3325668, y: 0.3325668, z: 0.3325668}
   m_Children:
   - {fileID: 2057835963}
   m_Father: {fileID: 729275323}
@@ -1404,7 +1404,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.2962036, y: -180.74504}
+  m_AnchoredPosition: {x: 104.60002, y: -180.74504}
   m_SizeDelta: {x: 668, y: 164}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1083907286
@@ -1755,7 +1755,7 @@ RectTransform:
   m_GameObject: {fileID: 1559905789}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.26362807, y: 0.26362807, z: 0.26362807}
+  m_LocalScale: {x: 0.3325668, y: 0.3325668, z: 0.3325668}
   m_Children:
   - {fileID: 1643687459}
   m_Father: {fileID: 729275323}
@@ -1763,7 +1763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 187.91315, y: -180.74504}
+  m_AnchoredPosition: {x: 347.69992, y: -180.74504}
   m_SizeDelta: {x: 668, y: 164}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1559905791
